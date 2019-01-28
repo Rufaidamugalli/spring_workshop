@@ -1,0 +1,17 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<h3> random  is : <span th:text="${random}"></span>
+    <ul>
+        <li th:each ="random: ${randoms}" th:text="${random}"></li>
+    </ul>
+
+    <table>
+        <tr th:each="random: ${randoms}">
+            <td th:text="${random}" />
+
+        </tr>
+    </table>
+
+</h3>
+</body>
+</html>
