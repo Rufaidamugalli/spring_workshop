@@ -8,10 +8,10 @@ import java.io.IOException;
 import java.util.List;
 
 @Component
-public class GitMember {
+public class GitMembers {
     private GitHub gitHub;
 
-    public GitMember(GitHub gitHub) throws IOException {
+    public GitMembers(GitHub gitHub) throws IOException {
         this.gitHub = gitHub;
     }
 
